@@ -75,6 +75,9 @@ Completed according to the requirements of the project and released here on GitH
 - Allowing the player to split pairs and play multiple hands.
 - Implementing multiple decks (this might be challenging to write).
 - Displaying the player's probability of winning against the dealer based on the dealer's up card.
+- Creating a card class and encapsulating data with shuffle and deal being member functions.
+- Input validation on the character that the player enters for whether or not to hit, and if they decide to play again.
+- Graphical user interface with images for the cards.
 
 ## Release date
 24 November, 2025
@@ -85,4 +88,4 @@ Prof. Kasey Nguyen is the project advisor.
 ## Sources
 James, Jason. Exploring C++: The Adventure Begins. Craieprogramming.Org, 2025, OER Series Exploring C++ The Adventure Begins, https://craieprogramming.org/OER/, Accessed 18 Feb. 2025.
 (I'm citing this textbook because the only thing from it that I used was the algorithm for generating random integers from the lowest to highest value (inclusive), because I need that as part of my algorithm to shuffle the deck at the beginning of each game.
-I created my flowcharts from scratch using miro.com. I edited them slightly with circles and letters in Microsoft Paint afterwards to clarify which branch goes to the next one, since my screenshots of the flowchart were captured in a series of approximately page-sized single .png files.
+I created my flowcharts from scratch using miro.com. I edited them slightly with circles and letters in Microsoft Paint afterwards to clarify which branch goes to the next one, since the screenshots of my flowchart were captured in a series of approximately page-sized single .png files.

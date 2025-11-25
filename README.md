@@ -89,3 +89,6 @@ Prof. Dr. Kasey Nguyen is the project advisor.
 James, Jason. Exploring C++: The Adventure Begins. Craieprogramming.Org, 2025, OER Series Exploring C++ The Adventure Begins, https://craieprogramming.org/OER/, Accessed 18 Feb. 2025.
 (I'm citing this textbook because the only thing from it that I used was the algorithm for generating random integers from the lowest to highest value (inclusive), because I need that as part of my algorithm to shuffle the deck at the beginning of each game.
 I created my flowcharts from scratch using miro.com. I edited them slightly with circles and letters in Microsoft Paint afterwards to clarify which branch goes to the next one, since the screenshots of my flowchart were captured in a series of approximately page-sized single .png files.
+
+## Contact
+Jason Ash - wizardofki@gmail.com

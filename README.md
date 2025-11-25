@@ -30,12 +30,18 @@ I wrote the source code in Notepad, and edited syntax errors (and a few logic er
 To make an executable file, compile the source code using your favorite C++ compiler or IDE. Then, run the resulting executable.
 
 ## Usage
-After running the program, the program's purpose is displayed, and it deals the player and dealer two cards each, which are shown as text. 
+After running the program, the program's purpose is displayed, and it deals the player and dealer two cards each, which are shown as text. Only the dealer's up card (second card) is shown until the dealer's turn. The program totals the player's hand and asks the player whether or not they want to hit by entering 'h' or 'H'. The probability of obtaining 21 or going bust (calculated as the number of possible next hands that result in that outcome divided by the total number of outcomes) is displayed, informing the player so that he/she can strategize accordingly. Note: on hands with a value of 11 or less, the probability of going bust will be zero, and the likelihood of obtaining 21 on a hand of 10 or less is zero. During the dealer's turn, the up card is revealed, and the program likewise displays the probability of the dealer obtaining 21 or going bust on the next hit. The dealer's turn is automated according to casino rules, which are that the dealer must hit on 16 or less and stand on 17 or more. At the end of the game, the player is prompted to enter 'y' or 'Y' to play again.
+
+Scoring is also done according to casino rules:
+- If the player obtains a Blackjack, the player automatically wins.
+- If both the player and dealer are dealt Blackjacks, then the player also wins.
+- If the dealer has a Blackjack, but the player does not, the player automatically loses.
+- If the player busts, then he/she loses even if the dealer also busts.
+- If the player and dealer have the same hand, that is called a push, and the game outcome is considered a tie.
+- If none of the above scenarios apply, then the player wins if their hand is closer to 21 without going over, and the dealer wins if the dealer's hand is closer to 21 without going over.
 
 ## Minimum hardware requirements
-- Although Patt and Patel do not mention which versions of Windows to use with their LC-3 Simulator, the program was developed using these tools running on Windows 10 without any issues.
-- Any computer with sufficient processing power, RAM, a monitor made within the past 15-20 years, and an Internet connection to download the .asm file and the LC-3 Simulator should suffice.
-- When using the online simulator, the minimum hardware requirements should likewise be very light and comparable to the above requirements for using the simulator on Windows.
+Although I developed this on a fairly recent Windows 11 PC, this program should run comfortably on any working computer with sufficient processing power, RAM, a monitor manufactured within the past 15-20 years, and an Internet connection to download the .cpp source file. 
 
 ## Features
 - After the user enters five test scores between 0 and 100, the program displays the average, minimum, and maximum test score along with their corresponging letter grade.

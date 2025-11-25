@@ -33,7 +33,7 @@ I completed most of the project documentation and all of my flowchart before I b
 - Calculating the probability of obtaining 21 or going bust on the next hit.
 
 ## Technologies:
-I wrote the source code in Notepad, and edited syntax errors (and a few logic errors) using Code::Blocks IDE. I compiled it using Code::Blocks' default GNU GCC compiler.
+I wrote the source code in Notepad, and edited syntax errors (and a few logic errors) using Code::Blocks IDE. I compiled it using Code::Blocks' default GNU GCC compiler. Please take the 90+ seconds to run the file in the screen capture below with a grain of salt, as my antivirus scans my executable before it runs, resulting in approximately 30 seconds of additional overhead before the program starts.
 
 ## Setup
 To make an executable file, compile the source code using your favorite C++ compiler or IDE. Then, run the resulting executable.

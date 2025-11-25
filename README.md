@@ -1,6 +1,5 @@
 # Blackjack
 
-# LC-3-Five-Exam-Averaging-ASM-Program
 ## Table of contents
 * [General Info](#General-info)
 * [Author](#Author)

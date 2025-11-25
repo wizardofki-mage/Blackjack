@@ -80,10 +80,10 @@ Completed according to the requirements of the project and released here on GitH
 - Graphical user interface with images for the cards.
 
 ## Release date
-24 November, 2025
+24 November 2025
 
 ## Acknowledgements
-Prof. Kasey Nguyen is the project advisor.
+Prof. Dr. Kasey Nguyen is the project advisor.
 
 ## Sources
 James, Jason. Exploring C++: The Adventure Begins. Craieprogramming.Org, 2025, OER Series Exploring C++ The Adventure Begins, https://craieprogramming.org/OER/, Accessed 18 Feb. 2025.

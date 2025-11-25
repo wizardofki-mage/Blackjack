@@ -44,13 +44,16 @@ Scoring is also done according to casino rules:
 Although I developed this on a fairly recent Windows 11 PC, this program should run comfortably on any working computer with sufficient processing power, RAM, a monitor manufactured within the past 15-20 years, and an Internet connection to download the .cpp source file. 
 
 ## Features
-- After the user enters five test scores between 0 and 100, the program displays the average, minimum, and maximum test score along with their corresponging letter grade.
-- This program performs input validation, confirming that the test scores do not contain characters that are not digits, they must be between 0 and 100, and they cannot be negative.
-- Input on a test score is terminated by the enter or space key or after three consecutive digits have been entered.
-- The program automatically halts after displaying the average, minimum, and maximum test scores along with their letter grade.
+- One player in addition to the dealer.
+- Implements a standard 52-card deck without Jokers.
+- The player will be allowed to hit until 21 is reached or they go bust.
+- Aces count as 11 on any hand with a value of 10 or below. In hands with a value of more than 10, aces count as one.
+- The AI strategy of the dealer follows casino rules in that the dealer must hit on a hand with a value of 16 or less and stand on 17 or more.
+- Scoring is done according to the casino rules explained above.
+- The dealer's hole card is not revealed until after the player's turn is complete.
 
 ## Screenshots
-![A screen capture of the program successfully running and displaying the average, minimum, and maximum test scores with their corresponding letter grade using test data required for the project](TeamBAwesomeRunWithTestData25May2025_0739am.jpg)
+![A screen capture of the Blackjack game that I developed for my Discrete Structures course project showing the probabilities and various combinations of hands as cards are dealt and the game progresses.](ScreenShotOfDiscreteStructuresBlackjackRunningInTerminalWindow.png)
 
 ## Project status
 Completed according to the requirements of the project and released here on GitHub.
@@ -62,10 +65,10 @@ Completed according to the requirements of the project and released here on GitH
 - Asking the user how many test scores they want to enter to average or averaging test scores for an entire class (both of which are beyond the scope of this project).
 
 ## Release date
-This project will be launched by June 12, 2025.
+24 November, 2025
 
 ## Acknowledgements
-Prof. Kasey Nguyen is our project advisor.
+Prof. Kasey Nguyen is the project advisor.
 
 ## Sources
 - Computer architecture and organization, and LC-3 assembly language programming are explained in the textbook:

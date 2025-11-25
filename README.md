@@ -3,6 +3,7 @@
 ## Table of contents
 * [General Info](#General-info)
 * [Author](#Author)
+* [Programming Approaches](#Programming-approaches)
 * [Techologies](#Technologies)
 * [Setup](#Setup)
 * [Usage](#Usage)
@@ -17,10 +18,19 @@
 * [Contact](#Contact)
 
 ## General info
-JasonAshCIS7DiscreteStructuresCourseProjectBlackjack.cpp is a program that I wrote in C++ for the course project in CIS-7: Discrete structures, taught at Moreno Valley College by Prof. Kasey Nguyen, PhD. It is a text-based C++ Blackjack game that demonstrates discrete structures concepts through algorithms that accomplish the game's logic according to its rules, and it continually updates the probability of obtaining 21 or going bust before and after each hit.
+JasonAshCIS7DiscreteStructuresCourseProjectBlackjack.cpp is a program that I wrote in C++ for the course project in CIS-7: Discrete structures, taught at Moreno Valley College (MVX) by Prof. Kasey Nguyen, PhD. It is a text-based C++ Blackjack game that demonstrates discrete structures concepts through algorithms that accomplish the game's logic according to its rules, and it continually updates the probability of obtaining 21 or going bust before and after each hit.
 
 ## Author
 - Jason Ash, Computer Science Major
+
+## Programming approaches
+I completed most of the project documentation and all of my flowchart before I began coding. This planning phase helps the development and coding process go smoothly and be less error-prone. I have previously taken CIS-5 and CIS-17A (Programming Concepts and Methodology C++ I and II, respectively) at MVC, and I applied the knowledge I gained from those courses, along with what I have learned in my Discrete Structures so far, to develop this program. I didn't create a cards class, and my program is entirely procedural with separate functions to accomplish:
+- Dealing cards
+- Displaying the name of a card corresponding to its unique integer
+- Using modulo division to determine the suit
+- Tallying the value of a hand
+- Determining the value of aces depending on the hand value so far
+- Calculating the probability of obtaining 21 or going bust on the next hit.
 
 ## Technologies:
 I wrote the source code in Notepad, and edited syntax errors (and a few logic errors) using Code::Blocks IDE. I compiled it using Code::Blocks' default GNU GCC compiler.

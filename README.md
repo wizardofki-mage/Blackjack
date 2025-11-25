@@ -59,10 +59,13 @@ Although I developed this on a fairly recent Windows 11 PC, this program should 
 Completed according to the requirements of the project and released here on GitHub.
 
 ## Room for improvement
-- Combining the three multiplication and two division subroutines into one subroutine for each that is called by the respective part of the program that needs their return values.
-- Rounding the average score according to math rounding rules instead of either rounding up all fractional scores, truncating average scores, or being off-by-one on the average score.
-- Handling fractional scores with decimal values since the LC-3 has no floating point support and only processes integers.
-- Asking the user how many test scores they want to enter to average or averaging test scores for an entire class (both of which are beyond the scope of this project).
+- Implementing two or more players.
+- Implementing bet amounts of pretend money and keeping track of the player's current amount of money, bets, and wins and losses.
+- The player would earn 1.5x their bet on a Blackjack, 2.5x their bet if both the player and dealer get a Blackjack, the bet is refunded upon a push, and the player loses their bet upon any losing scenario (see rules above).
+- Allowing the player to double down, in which the player can double their bet and is allowed to be dealt only one additional card beyond the two initial cards dealt.
+- Allowing the player to split pairs and play multiple hands.
+- Implementing multiple decks (this might be challenging to write).
+- Displaying the player's probability of winning against the dealer based on the dealer's up card.
 
 ## Release date
 24 November, 2025
@@ -71,6 +74,6 @@ Completed according to the requirements of the project and released here on GitH
 Prof. Kasey Nguyen is the project advisor.
 
 ## Sources
-- Computer architecture and organization, and LC-3 assembly language programming are explained in the textbook:
-Patt, Yale, and Patel, Sanjay. Ise Introduction to Computing Systems: From Bits & Gates to C. 3rd ed., 	McGraw-Hill, 	2020.
-- “What Is a Swimlane Diagram?” Lucidchart, 8 May 2025, www.lucidchart.com/pages/tutorial/swimlane-diagram#:~:text=A%20swimlane%20diagram%20is%20a,employee%2C%20work%20group%20or%20department 
+James, Jason. Exploring C++: The Adventure Begins. Craieprogramming.Org, 2025, OER Series Exploring C++ The Adventure Begins, https://craieprogramming.org/OER/, Accessed 18 Feb. 2025.
+(I'm citing this textbook because the only thing from it that I used was the algorithm for generating random integers from the lowest to highest value (inclusive), because I need that as part of my algorithm to shuffle the deck at the beginning of each game.
+I created my flowcharts from scratch using miro.com. I edited them slightly with circles and letters in Microsoft Paint afterwards to clarify which branch goes to the next one, since my screenshots of the flowchart were captured in a series of approximately page-sized single .png files.

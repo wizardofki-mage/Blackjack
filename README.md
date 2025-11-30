@@ -71,6 +71,7 @@ Completed according to the requirements of the project and released here on GitH
 - Implementing two or more players.
 - Implementing bet amounts of pretend money and keeping track of the player's current amount of money, bets, and wins and losses.
 - The player would earn 1.5x their bet on a Blackjack, 2.5x their bet if both the player and dealer get a Blackjack, the bet is refunded upon a push, and the player loses their bet upon any losing scenario (see rules above).
+- Allowing the dealer to draw up to a firm 17 instead of standing on a soft 17 (i.e., an ace and a six).
 - Allowing the player to double down, in which the player can double their bet and is allowed to be dealt only one additional card beyond the two initial cards dealt.
 - Allowing the player to split pairs and play multiple hands.
 - Implementing multiple decks (this might be challenging to write).
